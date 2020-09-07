@@ -9,7 +9,7 @@ using TestAPP2.Models;
 namespace UnitTestProject1
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTestWithoutDBcontext
     {
         [TestMethod]
         public void GetAllProducts_ShouldReturnAllProducts()

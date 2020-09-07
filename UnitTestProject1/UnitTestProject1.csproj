@@ -70,9 +70,9 @@
     <Compile Include="TestDbContext.cs" />
     <Compile Include="TestDbSet.cs" />
     <Compile Include="TestProductSet.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="UnitTestWithoutDBcontext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitTest2.cs" />
+    <Compile Include="UnitTestWithDBContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
