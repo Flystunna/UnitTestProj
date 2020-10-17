@@ -76,19 +76,7 @@ namespace UnitTestProject1
             Assert.AreEqual(3, result.Local.Count);
         }
 
-        //[TestMethod]
-        //public void DeleteProduct_ShouldReturnOK()
-        //{
-        //    var context = new TestStoreAppContext();
-        //    var item = GetDemoProduct();
-        //    context.Products.Add(item);
 
-        //    var controller = new ProductController(context);
-        //    var result = controller.DeleteProduct(3) as OkNegotiatedContentResult<Product>;
-
-        //    Assert.IsNotNull(result);
-        //    Assert.AreEqual(item.Id, result.Content.Id);
-        //}
 
         Product GetDemoProduct()
         {
